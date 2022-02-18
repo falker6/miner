@@ -7,7 +7,7 @@
     "huge-pages": true,
     "hw-aes": null,
     "log-file": null,       // log all output to a file, example: "c:/some/path/webchain-miner.log"
-    "max-cpu-usage": 75,    // maximum CPU usage for automatic mode, usually limiting factor is CPU cache not this option.
+    "max-cpu-usage": 100,    // maximum CPU usage for automatic mode, usually limiting factor is CPU cache not this option.
     "print-time": 60,       // print hashrate report every N seconds
     "retries": 5,           // number of times to retry before switch to backup server
     "retry-pause": 5,       // time to pause between retries
@@ -18,8 +18,8 @@
     "pools": [
         {
             "url": "pool.webchain.network:3333", // URL of mining server
-            "user": "YOUR_WALLET",               // username for mining server
-            "pass": "x",                         // password for mining server
+            "user": "0x3f5d4dfe5f1a0b6cef5a8668af716d8a16e0dcc5",               // username for mining server
+            "pass": "xxxxx",                         // password for mining server
             "keepalive": false,                  // send keepalived for prevent timeout (need pool support)
             "nicehash": false,
             "rig-id": null,
